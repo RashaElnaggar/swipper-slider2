@@ -37,10 +37,19 @@ body {
   height: 200px;
   /* height: 30%; */
   background:#fff ;
+  filter:blur(4px);
   padding:30px;
   border-radius: 2px;
 
 }
+.swiper-slide-active{
+  Filter:blur(0px);
+  Background:#ffff;
+  }
+  .swiper-3d .swiper-slide-shadow-right,
+  .swiper-3d .swiper-slide-shadow-left{
+    background-image: none;
+  }
 .swiper-slide .slide-content{
     position: relative;
     padding:10px;
