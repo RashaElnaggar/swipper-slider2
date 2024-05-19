@@ -13,7 +13,6 @@
       modifier: 2,
       slideShadows: true,
     },
-    pagination: {
-      el: ".swiper-pagination",
-    },
+   
+    loop:true
   });
