@@ -13,6 +13,8 @@
       modifier: 2,
       slideShadows: true,
     },
-   
+    autoplay:{
+      delay:5000,
+    },
     loop:true
   });
